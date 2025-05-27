@@ -1,8 +1,13 @@
 import React from "react";
+import Head from "./Components/Head";
+import Body from "./Components/Body";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello YouTube</h1>
+      <div className=" bg-[#212121] ">
+        <Head />
+        <Body />
+      </div>
     </>
   );
 }
